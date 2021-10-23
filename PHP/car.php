@@ -22,3 +22,5 @@ class Car {
     echo "Passengers: " . $this->passengers . "<br>";
   }
 }
+
+?>
