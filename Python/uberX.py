@@ -9,3 +9,8 @@ class UberX(Car):
         super().__init__(license, driver, passengers)
         self.brand = brand
         self.model = model
+
+    def printDataCar(self):
+        super().printDataCar()
+        print("Brand: {}".format(self.brand))
+        print("Model: {}".format(self.model))
